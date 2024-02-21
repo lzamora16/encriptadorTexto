@@ -108,6 +108,33 @@ body{
     transform: translate(-50%, -50%); /* Centra el texto */
 }
 
+@media screen and (max-width: 600px) {
+    .container{
+        flex-direction: column;
+    }
+
+    .textInput{
+        width: 450px;
+    }
+
+    .botones{
+        display: flex;
+    }
+
+    .textImagen{
+        width: 450px;
+    }
+
+    .textEncrip{
+        width: 450px;
+    }
+
+    .cifrado{
+        width: 450px;
+    }
+}
+
+
 /* body {
     font-family: Arial, sans-serif;
     line-height: 1.6;

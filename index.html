@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Encriptación</title>
+</head>
+<body>
+    <header class="encabezado">
+        <img src="alura.png" class="logo" alt="Logo Alura">
+    </header>
+    <main>
+        <div class="container">
+            <section class="input">
+                <form action="">
+                    <textarea class="textInput" name="" id="mensaje" placeholder="Ingresa el texto aquí"></textarea>
+                    <p class="regla">&excl; Solo letras mínusculas y sin acento</p>
+                    <input onclick="encriptar();" class="btnEncriptar" type="button" value="Encriptar">
+                    <input onclick="desencriptar()" class="btnDesencriptar" type="button" value="Desencriptar">
+                </form>
+            </section>
+            <section class="encriptado">
+                <textarea class="textEncrip" id="resultado" readonly placeholder="Ningún mensaje fue encontrado...."></textarea>
+                <p class="regla"></p>
+                <input onclick="copiarTexto()" class="copiar" type="button" value="Copiar">
+            </section>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>

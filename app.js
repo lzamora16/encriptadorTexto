@@ -115,7 +115,7 @@ function copiarTexto() {
         showConfirmButton: false,
         timer: 1500
     });
-
+    
     deshabilitar();
 }
 

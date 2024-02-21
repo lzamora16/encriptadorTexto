@@ -22,9 +22,15 @@
                 </form>
             </section>
             <section class="encriptado">
-                <textarea class="textEncrip" id="resultado" readonly placeholder="Ningún mensaje fue encontrado...."></textarea>
-                <p class="regla"></p>
-                <input onclick="copiarTexto()" class="copiar" type="button" value="Copiar">
+                <div id="textImg" class="textImagen">
+                    <img src="img/Muñeco.png" alt="">
+                    <h2>Ningún mensaje fue encontrado</h2>
+                    <span>Escriba un mensaje para encriptar o desencriptar</span>
+                </div>
+                <div id="cif" class="cifrado">
+                    <textarea class="textEncrip" id="resultado" readonly></textarea>
+                    <input onclick="copiarTexto()" class="copiar" type="button" value="Copiar">
+                </div>
             </section>
         </div>
     </main>
